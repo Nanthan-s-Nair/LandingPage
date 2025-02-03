@@ -11,21 +11,21 @@ const downloads = [
     image: "/images/icons8-apple-logo-150.png",
     requirements: "Requires macOS 11 Big Sur or later",
     version: "1.0.0",
-    size: "24.5 MB",
+    size: "453.5 MB",
   },
   {
     platform: "Linux",
     image: "/images/icons8-linux-100.png",
     requirements: "Requires Ubuntu 20.04 or compatible distribution",
     version: "1.0.0",
-    size: "22.8 MB",
+    size: "478.8 MB",
   },
   {
     platform: "Windows",
     image: "/images/icons8-windows8-100.png",
     requirements: "Requires Windows 10 or later",
     version: "1.0.0",
-    size: "25.2 MB",
+    size: "402.2 MB",
   },
 ];
 
@@ -84,7 +84,7 @@ export default function DownloadPage() {
               • Minimum 4GB RAM
             </p>
             <p className="mb-2">
-              • 100MB free disk space
+              • 1.5 GB free disk space
             </p>
             <p>
               • Active internet connection for real-time order processing
