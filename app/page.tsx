@@ -25,11 +25,17 @@ export default function Home() {
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
+<<<<<<< HEAD
             <div className="flex items-center space-x-2">
               <Image src={logo} alt="Ordr Logo" width={84} height={84} />
           <div className="flex items-center">
                 <Image src="/images/Logo.png" alt="Logo" width={80} height={80} className="text-primary" />
                 <span className="text-2xl font-bold">ORDR</span>
+=======
+          <div className="flex items-center space-x-2">
+                <Image src="/images/Logz.png" alt="Logo" width={80} height={80} className="text-primary" />
+                <span className="text-2xl font-bold flex items-center">ORDR</span>
+>>>>>>> 25142aa (commit2)
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-muted-foreground hover:text-primary transition-colors">Features</a>
