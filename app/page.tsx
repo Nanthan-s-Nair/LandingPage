@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ChevronRight, Package2, Zap, Shield, Mail, Phone, MapPin, ArrowRight } from "lucide-react";
@@ -26,6 +27,9 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
               <Image src={logo} alt="Ordr Logo" width={84} height={84} />
+          <div className="flex items-center">
+                <Image src="/images/Logo.png" alt="Logo" width={80} height={80} className="text-primary" />
+                <span className="text-2xl font-bold">ORDR</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-muted-foreground hover:text-primary transition-colors">Features</a>
@@ -84,8 +88,8 @@ export default function Home() {
             </Card>
             <Card className="p-6 hover:shadow-lg transition-shadow">
               <Package2 className="h-12 w-12 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Smart Analytics</h3>
-              <p className="text-muted-foreground">Get insights into your order patterns and customer behavior.</p>
+              <h3 className="text-xl font-semibold mb-2">Fraud Detection</h3>
+              <p className="text-muted-foreground">Identify potential scams or fraudulent orders through context-aware analysis and predefined risk rules.</p>
             </Card>
           </motion.div>
         </div>
