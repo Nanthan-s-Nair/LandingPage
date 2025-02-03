@@ -5,6 +5,9 @@ import { ChevronRight, Package2, Zap, Shield, Mail, Phone, MapPin, ArrowRight } 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../public/logo.png";
+
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   useEffect(() => {
@@ -22,8 +25,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
-              <Package2 className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold">OrderPro</span>
+              <Image src={logo} alt="Ordr Logo" width={84} height={84} />
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-muted-foreground hover:text-primary transition-colors">Features</a>
