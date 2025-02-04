@@ -44,9 +44,9 @@ export default function DownloadPage() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h1 className="text-4xl font-bold mb-4">Download OrderPro Extension</h1>
+          <h1 className="text-4xl font-bold mb-4">Download The ORDR Software</h1>
           <p className="text-xl text-muted-foreground">
-            Choose your platform to get started with OrderPro
+            Choose your platform to get started with OrDr...
           </p>
         </motion.div>
 
