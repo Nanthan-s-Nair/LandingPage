@@ -6,7 +6,7 @@ import { ChevronRight, Package2, Zap, Shield, Mail, Phone, MapPin, ArrowRight } 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
-import logo from "../public/logo.png";
+import logo from "../public/Logo.png";
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
